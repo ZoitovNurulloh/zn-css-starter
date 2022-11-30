@@ -1,3 +1,5 @@
+/* CUSTOM PROPS */
+
 /* FONTS */
 
 /* GLOBAL */
@@ -43,11 +45,54 @@ img {
   margin-right: auto;
 }
 
-/* VARIABLES */
+
+/* VISUALLY-HIDDEN */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+
+/* AUTOFILL-STYLES */
+/*
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  -webkit-text-fill-color: var(--heading-color);
+  -webkit-box-shadow: 0 0 0px 40rem #ffff inset;
+} */
+
+/* PLACEHOLDER STYLE */
+/*
+::placeholder {
+  color: rgba(52, 49, 61, 0.5);
+} */
+
 
 
 /* MAIN-CONTENT */
 
 .main-content {
   flex-grow: 1;
+}
+
+
+
+/* RETINA BACKGROUND IMAGES */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
 }
